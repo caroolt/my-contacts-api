@@ -33,12 +33,15 @@ This project was made only for the purpose of studying SQL and express with node
 #### 3- Install all dependencies
    `yarn install`
 
-#### 4- Run the queries in the `schema.sql` database folder
+#### 4- enter postgres bash
+   `docker exec -it 'container name' bash` and `psql -U 'name of the POSTGRES_USER you set'`
 
-#### 5- Run the project
+#### 5- Run the queries in the `schema.sql` database folder
+
+#### 6- Run the project
    `yarn dev`
 
-#### 6- Step not required
+#### 7- Step not required
    - In the insomnia folder there is a json with the methods to be tested. To use them in insomnia just import the json and you are done.
 
    _Insomnia is a REST API client tool, like Postman, but has some additional features, such as GraphQL support, gRPC, and others._
